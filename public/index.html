@@ -33,11 +33,8 @@
     <!-- Sky gradient lives on .hero itself via CSS -->
     <div class="hero-content">
       <p class="hero-eyebrow">Welcome to Rahi</p>
-      <h1 class="hero-heading">Incredible<br />India</h1>
-      <p class="hero-sub">Where every journey tells a story — ancient temples, royal palaces, misty mountains, golden deserts, and sun-kissed beaches await.</p>
+      <h1 class="hero-heading">Explore India</h1>
       <div class="hero-actions">
-        <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
-        <a href="#trip-ideas" class="btn btn-ghost hero-btn-ghost">Plan Your Trip</a>
       </div>
     </div>
     <!-- Taj Mahal PNG sits IN FRONT of the text via z-index -->
@@ -52,28 +49,60 @@
 
   <!-- ABOUT -->
   <section class="about section" id="about">
-    <div class="container about-grid">
-      <div class="about-label-col">
+    <div class="about-shell">
+      <div class="about-topbar">
         <span class="section-tag">About Rahi</span>
+        <span class="about-topbar-icon" aria-hidden="true">✦</span>
       </div>
-      <div class="about-content-col">
+
+      <div class="about-intro">
         <h2 class="section-heading">Welcome To India</h2>
         <p class="body-text">India is not just a destination — it is an experience that stays with you forever. From the snow-capped peaks of the Himalayas to the serene backwaters of Kerala, from the golden sands of Rajasthan to the lush forests of the Northeast, India is a land of extraordinary contrasts.</p>
-        <p class="body-text">With over <strong>40 UNESCO World Heritage Sites</strong>, a civilisation stretching back thousands of years, and a living culture of festivals, art, cuisine, and spirituality, there is something in India for every kind of traveller.</p>
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-number">40+</span>
-            <span class="stat-label">UNESCO Sites</span>
+      </div>
+
+      <div class="about-gallery" aria-label="About India highlights">
+        <figure class="about-photo about-photo--edge-left">
+          <img src="https://images.unsplash.com/photo-1610433572201-110753c6cff9?w=420&q=80" alt="Travellers exploring mountain viewpoints in India" loading="lazy" />
+        </figure>
+
+        <figure class="about-photo about-photo--wide-left">
+          <img src="https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=700&q=80" alt="Scenic volcanic-style mountain terrain" loading="lazy" />
+        </figure>
+
+        <figure class="about-photo about-photo--center">
+          <img src="https://images.unsplash.com/photo-1593693411515-c20261bcad6e?w=700&q=80" alt="Travellers enjoying India's mountain landscapes" loading="lazy" />
+        </figure>
+
+        <article class="about-highlight-card">
+          <div class="about-highlight-media">
+            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80" alt="Road trip in India's open landscapes" loading="lazy" />
           </div>
-          <div class="stat">
-            <span class="stat-number">29</span>
-            <span class="stat-label">States to Explore</span>
+          <div class="about-highlight-content">
+            <p class="body-text">With over <strong>40 UNESCO World Heritage Sites</strong>, a civilisation stretching back thousands of years, and a living culture of festivals, art, cuisine, and spirituality, there is something in India for every kind of traveller.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">40+</span>
+                <span class="stat-label">UNESCO Sites</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">29</span>
+                <span class="stat-label">States to Explore</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Stories to Tell</span>
+              </div>
+            </div>
           </div>
-          <div class="stat">
-            <span class="stat-number">∞</span>
-            <span class="stat-label">Stories to Tell</span>
-          </div>
-        </div>
+        </article>
+
+        <figure class="about-photo about-photo--wide-right">
+          <img src="https://images.unsplash.com/photo-1605538883669-82524e80fbc3?w=700&q=80" alt="Desert road journey in India" loading="lazy" />
+        </figure>
+
+        <figure class="about-photo about-photo--edge-right">
+          <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=420&q=80" alt="Sunrise sky over mountain clouds" loading="lazy" />
+        </figure>
       </div>
     </div>
   </section>
@@ -81,64 +110,81 @@
   <!-- DESTINATIONS — REGION CARDS -->
   <section class="destinations section" id="destinations">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Where to Go</span>
-        <h2 class="section-heading">Explore by Region</h2>
+      <div class="section-header destinations-header">
+        <div class="region-badge">
+          <span>Explore by Region</span>
+          <span class="region-badge-icon" aria-hidden="true">+</span>
+        </div>
+        <h2 class="section-heading">Discover the Best India Adventures for Every Kind of Traveler</h2>
+        <p class="region-intro">Thoughtfully curated regional journeys for every traveler whether you are chasing mountain sunrises, cultural streets, tropical forests, or desert roads.</p>
       </div>
-      <div class="regions-grid">
-        <div class="region-card">
+      <div class="regions-layout">
+        <article class="region-card region-card-featured">
           <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80" alt="North India" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1593693411515-c20261bcad6e?w=1200&q=80" alt="Scenic mountain landscape in India" loading="lazy" />
           </div>
-          <div class="region-info">
-            <h3 class="region-name">North India</h3>
-            <p class="region-places">Delhi · Jaipur · Agra · Varanasi · Shimla · Manali · Ladakh</p>
+          <div class="region-featured-overlay">
+            <h3>Discover the Untamed Beauty of India</h3>
+            <p>From high-altitude trails to peaceful valleys, each region offers a distinct story shaped by nature and culture.</p>
           </div>
-        </div>
-        <div class="region-card">
-          <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1602153863396-b7b6e7e88e98?w=600&q=80" alt="South India" loading="lazy" />
-          </div>
-          <div class="region-info">
-            <h3 class="region-name">South India</h3>
-            <p class="region-places">Kerala · Mysuru · Hampi · Mahabalipuram · Ooty · Pondicherry</p>
-          </div>
-        </div>
-        <div class="region-card">
-          <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="East India" loading="lazy" />
-          </div>
-          <div class="region-info">
-            <h3 class="region-name">East India</h3>
-            <p class="region-places">Puri · Bhubaneswar · Kolkata · Andaman & Nicobar Islands</p>
-          </div>
-        </div>
-        <div class="region-card">
-          <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80" alt="West India" loading="lazy" />
-          </div>
-          <div class="region-info">
-            <h3 class="region-name">West India</h3>
-            <p class="region-places">Goa · Mumbai · Ahmedabad · Rann of Kutch · Udaipur</p>
-          </div>
-        </div>
-        <div class="region-card">
-          <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1621853565847-15a3c1f1b741?w=600&q=80" alt="Central India" loading="lazy" />
-          </div>
-          <div class="region-info">
-            <h3 class="region-name">Central India</h3>
-            <p class="region-places">Khajuraho · Sanchi · Orchha · Bhopal</p>
-          </div>
-        </div>
-        <div class="region-card">
-          <div class="region-img-wrap">
-            <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=600&q=80" alt="North East India" loading="lazy" />
-          </div>
-          <div class="region-info">
-            <h3 class="region-name">North East India</h3>
-            <p class="region-places">Shillong · Tawang · Gangtok · Majuli · Cherrapunjee</p>
-          </div>
+        </article>
+
+        <div class="regions-grid">
+          <article class="region-card region-tour-card">
+            <div class="region-img-wrap">
+              <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=700&q=80" alt="North India" loading="lazy" />
+            </div>
+            <div class="region-info">
+              <h3 class="region-name">North India Explorer</h3>
+              <p class="region-places">Delhi, Agra, Jaipur, and Himalayan valleys with forts, temples, and mountain dawns.</p>
+              <div class="region-meta">
+                <span class="region-price">INR 6,900 / person</span>
+                <a href="#contact" class="region-book-btn">Book Now <span class="region-arrow">-&gt;</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="region-card region-tour-card">
+            <div class="region-img-wrap">
+              <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=700&q=80" alt="West India" loading="lazy" />
+            </div>
+            <div class="region-info">
+              <h3 class="region-name">Western India Trail</h3>
+              <p class="region-places">Goa, Mumbai, and Kutch routes blending coastlines, heritage towns, and desert escapes.</p>
+              <div class="region-meta">
+                <span class="region-price">INR 7,800 / person</span>
+                <a href="#contact" class="region-book-btn">Book Now <span class="region-arrow">-&gt;</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="region-card region-tour-card">
+            <div class="region-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602153863396-b7b6e7e88e98?w=700&q=80" alt="South India" loading="lazy" />
+            </div>
+            <div class="region-info">
+              <h3 class="region-name">Southern India Escape</h3>
+              <p class="region-places">Kerala backwaters, temple cities, and hill stations designed for relaxed scenic travel.</p>
+              <div class="region-meta">
+                <span class="region-price">INR 8,400 / person</span>
+                <a href="#contact" class="region-book-btn">Book Now <span class="region-arrow">-&gt;</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="region-card region-tour-card">
+            <div class="region-img-wrap">
+              <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=700&q=80" alt="North East India" loading="lazy" />
+            </div>
+            <div class="region-info">
+              <h3 class="region-name">North East Expedition</h3>
+              <p class="region-places">Shillong, Gangtok, and hidden mountain roads ideal for active, offbeat exploration.</p>
+              <div class="region-meta">
+                <span class="region-price">INR 9,200 / person</span>
+                <a href="#contact" class="region-book-btn">Book Now <span class="region-arrow">-&gt;</span></a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </div>

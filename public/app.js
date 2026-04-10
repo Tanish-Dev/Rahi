@@ -60,7 +60,7 @@ document.querySelectorAll('.faq-q').forEach(btn => {
 
 /* ─── SCROLL REVEAL ──────────────────────── */
 const revealEls = document.querySelectorAll(
-  '.region-card, .featured-item, .exp-card, .festival-card, .attr-item, .trip-card, .about-content-col, .stat, .responsible-inner, .faq-item, .contact-left, .contact-right'
+  '.region-card, .featured-item, .exp-card, .festival-card, .attr-item, .trip-card, .about-intro, .about-photo, .about-highlight-card, .stat, .responsible-inner, .faq-item, .contact-left, .contact-right'
 );
 
 revealEls.forEach(el => el.classList.add('reveal'));
