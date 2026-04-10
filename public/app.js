@@ -105,9 +105,10 @@ const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      navAnchors.forEach(a => a.classList.remove('active'));
       const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
-      if (active) active.classList.add('active');
+      if (!active) return;
+      navAnchors.forEach(a => a.classList.remove('active'));
+      active.classList.add('active');
     }
   });
 }, { rootMargin: '-40% 0px -55% 0px' });
