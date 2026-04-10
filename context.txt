@@ -9,7 +9,7 @@ CTA Buttons: Explore Destinations | Plan Your Trip
 Destinations · Experiences · Festivals & Events · Attractions · Travel Tips · Contact Us
 
 📖 ABOUT SECTION
-Heading: Why India?
+Heading: Welcome To India
 Body:
 India is not just a destination — it is an experience that stays with you forever. From the snow-capped peaks of the Himalayas to the serene backwaters of Kerala, from the golden sands of Rajasthan to the lush forests of the Northeast, India is a land of extraordinary contrasts. With over 40 UNESCO World Heritage Sites, a civilisation stretching back thousands of years, and a living culture of festivals, art, cuisine, and spirituality, there is something in India for every kind of traveller.
 
@@ -87,7 +87,7 @@ Q: What currency is used in India?
 The Indian Rupee (INR). ATMs are widely available in cities and major tourist spots.
 
 📞 CONTACT / FOOTER SECTION
-Company Name: Incredible India Tourism (or your chosen brand name)
+Company Name: Rahi (or your chosen brand name)
 Tagline: Your journey begins here.
 Quick Links: Destinations · Experiences · Festivals · Attractions · Plan a Trip · FAQs
 Social Media: Facebook · Twitter/X · Instagram · YouTube · LinkedIn
