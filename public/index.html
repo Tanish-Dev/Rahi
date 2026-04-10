@@ -30,15 +30,19 @@
 
   <!-- HERO -->
   <section class="hero" id="hero">
-    <div class="hero-bg"></div>
+    <!-- Sky gradient lives on .hero itself via CSS -->
     <div class="hero-content">
       <p class="hero-eyebrow">Welcome to Rahi</p>
-      <h1 class="hero-heading">Discover<br />Incredible India</h1>
+      <h1 class="hero-heading">Incredible<br />India</h1>
       <p class="hero-sub">Where every journey tells a story — ancient temples, royal palaces, misty mountains, golden deserts, and sun-kissed beaches await.</p>
       <div class="hero-actions">
         <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
-        <a href="#trip-ideas" class="btn btn-ghost">Plan Your Trip</a>
+        <a href="#trip-ideas" class="btn btn-ghost hero-btn-ghost">Plan Your Trip</a>
       </div>
+    </div>
+    <!-- Taj Mahal PNG sits IN FRONT of the text via z-index -->
+    <div class="hero-taj" aria-hidden="true">
+      <img src="rahi-heroimg.png" alt="Taj Mahal" />
     </div>
     <div class="hero-scroll-hint">
       <span>Scroll</span>

@@ -236,47 +236,34 @@ ul { list-style: none; }
   transition: all 0.3s var(--ease);
 }
 
-/* ─── HERO ────────────────────────────────── */
+/* ─── HERO ───────────────────────────────── */
 .hero {
   position: relative;
   height: 100svh;
   min-height: 600px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-}
-
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1800&q=85');
-  background-size: cover;
-  background-position: center 30%;
-  transform: scale(1.04);
-  animation: heroZoom 8s var(--ease) forwards;
-}
-
-@keyframes heroZoom {
-  to { transform: scale(1); }
-}
-
-.hero-bg::after {
-  content: '';
-  position: absolute;
-  inset: 0;
+  /* Sky gradient — replaces background image */
   background: linear-gradient(
-    to top,
-    rgba(10, 8, 5, 0.82) 0%,
-    rgba(10, 8, 5, 0.3) 55%,
-    transparent 100%
+    180deg,
+    #4a90c8 0%,
+    #6aaee0 28%,
+    #8ec6f0 56%,
+    #b5d9f5 78%,
+    #cce6f8 100%
   );
 }
 
+/* ── Centered hero content (sits BEHIND the Taj image) ── */
 .hero-content {
   position: relative;
-  z-index: 2;
-  padding: 0 2.5rem 6rem;
-  max-width: 760px;
+  z-index: 1;                   /* text layer — below Taj */
+  text-align: center;
+  padding: 0 2rem;
+  max-width: 900px;
+  width: 100%;
   animation: heroFadeUp 1s 0.3s var(--ease) both;
 }
 
@@ -286,44 +273,90 @@ ul { list-style: none; }
 }
 
 .hero-eyebrow {
-  font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.2em;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.85);
   margin-bottom: 1rem;
 }
 
 .hero-heading {
-  font-size: clamp(3.2rem, 8vw, 7rem);
-  font-weight: 600;
-  letter-spacing: -0.04em;
+  font-size: clamp(4.5rem, 16vw, 13rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
-  line-height: 0.95;
-  color: #fff;
-  margin-bottom: 1.5rem;
+  line-height: 0.88;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 1.4rem;
+  /* Soft text shadow so letters pop against the sky */
+  text-shadow: 0 2px 40px rgba(30, 80, 140, 0.18);
 }
 
 .hero-sub {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(255,255,255,0.72);
+  color: rgba(255,255,255,0.80);
   line-height: 1.7;
   max-width: 520px;
-  margin-bottom: 2.2rem;
+  margin: 0 auto 2.2rem;
 }
 
 .hero-actions {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
+/* Ghost button override on the light hero */
+.hero-btn-ghost {
+  background: rgba(255,255,255,0.18) !important;
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.55) !important;
+  backdrop-filter: blur(6px);
+}
+.hero-btn-ghost:hover {
+  background: rgba(255,255,255,0.34) !important;
+  border-color: rgba(255,255,255,0.9) !important;
+  color: #fff !important;
+}
+
+/* ── Taj Mahal image — sits IN FRONT of the text ── */
+.hero-taj {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;                   /* above hero-content */
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+  animation: tajRiseIn 1.2s 0.1s var(--ease) both;
+}
+
+@keyframes tajRiseIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(30px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.hero-taj img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom center;
+  display: block;
+}
+
+/* ── Scroll hint ── */
 .hero-scroll-hint {
   position: absolute;
   bottom: 2.5rem;
   right: 2.5rem;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,7 +368,7 @@ ul { list-style: none; }
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.6);
   writing-mode: vertical-rl;
 }
 
