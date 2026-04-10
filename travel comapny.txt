@@ -1,0 +1,95 @@
+
+
+🏠 HERO / BANNER SECTION
+Headline: Discover Incredible India
+Subheadline: Where every journey tells a story — ancient temples, royal palaces, misty mountains, golden deserts, and sun-kissed beaches await.
+CTA Buttons: Explore Destinations | Plan Your Trip
+
+🧭 NAVBAR LINKS
+Destinations · Experiences · Festivals & Events · Attractions · Travel Tips · Contact Us
+
+📖 ABOUT SECTION
+Heading: Why India?
+Body:
+India is not just a destination — it is an experience that stays with you forever. From the snow-capped peaks of the Himalayas to the serene backwaters of Kerala, from the golden sands of Rajasthan to the lush forests of the Northeast, India is a land of extraordinary contrasts. With over 40 UNESCO World Heritage Sites, a civilisation stretching back thousands of years, and a living culture of festivals, art, cuisine, and spirituality, there is something in India for every kind of traveller.
+
+📍 DESTINATIONS SECTION
+Heading: Explore by Region
+Use these 6 region cards:
+RegionHighlight DestinationsNorth IndiaDelhi, Jaipur, Agra, Varanasi, Shimla, Manali, LadakhSouth IndiaKerala, Mysuru, Hampi, Mahabalipuram, Ooty, PondicherryEast IndiaPuri, Bhubaneswar, Kolkata, Andaman & Nicobar IslandsWest IndiaGoa, Mumbai, Ahmedabad, Rann of Kutch, UdaipurCentral IndiaKhajuraho, Sanchi, Orchha, BhopalNorth East IndiaShillong, Tawang, Gangtok, Majuli, Cherrapunjee
+
+🌟 FEATURED DESTINATIONS (Cards)
+1. Rajasthan — The Royal Desert State
+Majestic forts, camel safaris across golden dunes, colourful bazaars, and royal heritage. Visit Jaipur, Jodhpur, Jaisalmer, and Udaipur.
+2. Kerala — God's Own Country
+Tranquil backwaters, lush tea estates, Ayurvedic retreats, and pristine beaches. Explore Munnar, Alleppey, Kochi, and Kovalam.
+3. Ladakh — Land of High Passes
+Dramatic moonscapes, ancient monasteries, turquoise lakes, and thrilling mountain roads. A paradise for adventure seekers.
+4. Goa — Sun, Sand & Soul
+Golden beaches, Portuguese-era churches, vibrant nightlife, and fresh seafood. India's most beloved coastal escape.
+5. Varanasi — The Eternal City
+One of the world's oldest living cities, with sacred ghats, dawn boat rides on the Ganges, and centuries of spiritual tradition.
+6. Hampi — Ruins of an Empire
+A UNESCO World Heritage Site, with stunning boulder-strewn landscapes and the majestic ruins of the Vijayanagara Empire.
+
+🎭 EXPERIENCES SECTION
+Heading: Unforgettable Experiences
+Use these 8 experience tiles:
+🏔️ Adventure — Trekking in the Himalayas, river rafting in Rishikesh, skiing in Gulmarg, scuba diving in Andamans
+🛕 Spiritual Journeys — Char Dham Yatra, Varanasi ghats, Golden Temple Amritsar, Tirupati pilgrimage
+🍛 Culinary Trails — Street food in Delhi, seafood in Goa, biryani in Hyderabad, thali in Rajasthan
+🐘 Wildlife & Nature — Tiger safaris at Ranthambore, elephants in Kaziranga, birdwatching at Bharatpur
+🎨 Art & Craft — Madhubani paintings, Rajasthani block printing, Banarasi silk weaving, Kondapalli toys
+🏖️ Beach Escapes — Goa, Kovalam, Varkala, Andaman Islands, Lakshadweep
+🏯 Heritage Walks — Agra Fort, Fatehpur Sikri, Hampi, Mahabalipuram, Ajanta & Ellora Caves
+🧘 Wellness & Yoga — Ayurveda in Kerala, yoga retreats in Rishikesh, meditation in Dharamshala
+
+🎉 FESTIVALS SECTION
+Heading: Celebrate with India
+FestivalWhereWhenDiwali — Festival of LightsAll of IndiaOctober / NovemberHoli — Festival of ColoursNorth India (Mathura & Vrindavan)MarchPushkar Camel FairRajasthanNovemberHornbill FestivalNagalandDecemberOnamKeralaAugust / SeptemberKumbh MelaPrayagraj / HaridwarEvery 3 yearsRann UtsavGujaratNovember–February
+
+🏛️ ATTRACTIONS / MUST-SEE
+Heading: Icons of India
+
+Taj Mahal, Agra — Symbol of eternal love, one of the Seven Wonders of the World
+Qutub Minar, Delhi — A soaring minaret from the 12th century
+Ajanta & Ellora Caves, Maharashtra — Rock-cut Buddhist, Hindu, and Jain cave monuments
+Khajuraho Temples, MP — UNESCO-listed temples famous for intricate sculpture
+Mysore Palace, Karnataka — A stunning blend of Indo-Saracenic architecture
+Pangong Lake, Ladakh — A breathtaking high-altitude lake bordering India and China
+Meenakshi Temple, Madurai — A towering masterpiece of Dravidian temple architecture
+Victoria Memorial, Kolkata — Iconic colonial landmark set in sweeping gardens
+
+
+🗺️ TRIP IDEAS SECTION
+Heading: Ready-Made Journeys
+Golden Triangle (7 Days): Delhi → Agra → Jaipur
+The classic India circuit — Mughal grandeur, the Taj Mahal, and Rajput palaces.
+Kerala Backwaters (5 Days): Kochi → Alleppey → Munnar → Kovalam
+Houseboat stays, tea gardens, and beachside sunsets.
+Himalayan Escape (8 Days): Manali → Leh → Nubra Valley → Pangong Lake
+Mountain roads, monasteries, and surreal landscapes.
+Spiritual Circuit (6 Days): Varanasi → Ayodhya → Prayagraj → Mathura
+Sacred rivers, ancient temples, and timeless devotion.
+
+🌱 RESPONSIBLE TRAVEL (Travel for LiFE)
+Heading: Travel Responsibly
+India invites you to explore mindfully. Choose eco-friendly accommodations, respect local customs and dress codes at religious sites, support local artisans and village markets, avoid single-use plastics, and leave every destination as beautiful as you found it.
+
+❓ FAQ SECTION
+Q: Do I need a visa to visit India?
+Most international travellers can apply for an e-Visa online before arrival. Visit the official Indian government e-Visa portal for eligibility and applications.
+Q: What is the best time to visit India?
+October to March is ideal for most of India. Hill stations are best in summer (April–June). Monsoon (July–September) is magical in Kerala and the Northeast.
+Q: Is India safe for solo travellers?
+Yes. India has millions of solo travellers every year. It helps to plan ahead, use registered transport, and stay in well-reviewed accommodations.
+Q: What currency is used in India?
+The Indian Rupee (INR). ATMs are widely available in cities and major tourist spots.
+
+📞 CONTACT / FOOTER SECTION
+Company Name: Incredible India Tourism (or your chosen brand name)
+Tagline: Your journey begins here.
+Quick Links: Destinations · Experiences · Festivals · Attractions · Plan a Trip · FAQs
+Social Media: Facebook · Twitter/X · Instagram · YouTube · LinkedIn
+(Link to Incredible India's official handles)
+Disclaimer line: Content curated from incredibleindia.gov.in, the official tourism portal of the Government of India.
