@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -52,7 +53,7 @@
     <div class="about-shell">
       <div class="about-topbar">
         <span class="section-tag">About Rahi</span>
-        <span class="about-topbar-icon" aria-hidden="true">✦</span>
+        <span class="about-topbar-icon" aria-hidden="true"><i class="bi bi-stars"></i></span>
       </div>
 
       <div class="about-intro">
@@ -62,11 +63,11 @@
 
       <div class="about-gallery" aria-label="About India highlights">
         <figure class="about-photo about-photo--edge-left">
-          <img src="https://images.unsplash.com/photo-1610433572201-110753c6cff9?w=420&q=80" alt="Travellers exploring mountain viewpoints in India" loading="lazy" />
+          <img src="placestovisitinindiablog.jpg" alt="Travellers exploring mountain viewpoints in India" loading="lazy" />
         </figure>
 
         <figure class="about-photo about-photo--wide-left">
-          <img src="https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=700&q=80" alt="Scenic volcanic-style mountain terrain" loading="lazy" />
+          <img src="fifa.avif" alt="Scenic volcanic-style mountain terrain" loading="lazy" />
         </figure>
 
         <figure class="about-photo about-photo--center">
@@ -193,9 +194,10 @@
   <!-- FEATURED DESTINATIONS -->
   <section class="featured section" id="featured">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header featured-header">
         <span class="section-tag">Must Visit</span>
         <h2 class="section-heading">Featured Destinations</h2>
+        <p class="featured-intro">Handpicked journeys that balance iconic highlights with local stories, crafted for scenic travel, culture, and comfort.</p>
       </div>
       <div class="featured-list">
 
@@ -204,24 +206,30 @@
             <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80" alt="Rajasthan" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">01</span>
+            <div class="featured-meta">
+              <span class="featured-num">01</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Rajasthan</h3>
-            <p class="featured-subtitle">The Royal Desert State</p>
+            <p class="featured-subtitle"><i class="bi bi-sun-fill" aria-hidden="true"></i> The Royal Desert State</p>
             <p class="featured-desc">Majestic forts, camel safaris across golden dunes, colourful bazaars, and royal heritage. Visit Jaipur, Jodhpur, Jaisalmer, and Udaipur.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
-        <article class="featured-item featured-item--reverse" data-index="02">
+        <article class="featured-item" data-index="02">
           <div class="featured-img-wrap">
             <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80" alt="Kerala" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">02</span>
+            <div class="featured-meta">
+              <span class="featured-num">02</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Kerala</h3>
-            <p class="featured-subtitle">God's Own Country</p>
+            <p class="featured-subtitle"><i class="bi bi-water" aria-hidden="true"></i> God's Own Country</p>
             <p class="featured-desc">Tranquil backwaters, lush tea estates, Ayurvedic retreats, and pristine beaches. Explore Munnar, Alleppey, Kochi, and Kovalam.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
@@ -230,24 +238,30 @@
             <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Ladakh" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">03</span>
+            <div class="featured-meta">
+              <span class="featured-num">03</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Ladakh</h3>
-            <p class="featured-subtitle">Land of High Passes</p>
+            <p class="featured-subtitle"><i class="bi bi-signpost-split" aria-hidden="true"></i> Land of High Passes</p>
             <p class="featured-desc">Dramatic moonscapes, ancient monasteries, turquoise lakes, and thrilling mountain roads. A paradise for adventure seekers.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
-        <article class="featured-item featured-item--reverse" data-index="04">
+        <article class="featured-item" data-index="04">
           <div class="featured-img-wrap">
             <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80" alt="Goa" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">04</span>
+            <div class="featured-meta">
+              <span class="featured-num">04</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Goa</h3>
-            <p class="featured-subtitle">Sun, Sand & Soul</p>
+            <p class="featured-subtitle"><i class="bi bi-brightness-high-fill" aria-hidden="true"></i> Sun, Sand and Soul</p>
             <p class="featured-desc">Golden beaches, Portuguese-era churches, vibrant nightlife, and fresh seafood. India's most beloved coastal escape.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
@@ -256,24 +270,30 @@
             <img src="https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=800&q=80" alt="Varanasi" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">05</span>
+            <div class="featured-meta">
+              <span class="featured-num">05</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Varanasi</h3>
-            <p class="featured-subtitle">The Eternal City</p>
+            <p class="featured-subtitle"><i class="bi bi-water" aria-hidden="true"></i> The Eternal City</p>
             <p class="featured-desc">One of the world's oldest living cities, with sacred ghats, dawn boat rides on the Ganges, and centuries of spiritual tradition.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
-        <article class="featured-item featured-item--reverse" data-index="06">
+        <article class="featured-item" data-index="06">
           <div class="featured-img-wrap">
             <img src="https://images.unsplash.com/photo-1600101531977-06855c3bd728?w=800&q=80" alt="Hampi" loading="lazy" />
           </div>
           <div class="featured-text">
-            <span class="featured-num">06</span>
+            <div class="featured-meta">
+              <span class="featured-num">06</span>
+              <span class="featured-chip"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India</span>
+            </div>
             <h3 class="featured-title">Hampi</h3>
-            <p class="featured-subtitle">Ruins of an Empire</p>
+            <p class="featured-subtitle"><i class="bi bi-columns-gap" aria-hidden="true"></i> Ruins of an Empire</p>
             <p class="featured-desc">A UNESCO World Heritage Site with stunning boulder-strewn landscapes and the majestic ruins of the Vijayanagara Empire.</p>
-            <a href="#contact" class="link-arrow">Plan this trip <span>→</span></a>
+            <a href="#contact" class="featured-link">Plan this trip <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </article>
 
@@ -290,42 +310,42 @@
       </div>
       <div class="exp-grid">
         <div class="exp-card">
-          <span class="exp-icon">🏔️</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-signpost-split"></i></span>
           <h3 class="exp-title">Adventure</h3>
           <p class="exp-desc">Trekking in the Himalayas, river rafting in Rishikesh, skiing in Gulmarg, scuba diving in the Andamans.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🛕</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-bank"></i></span>
           <h3 class="exp-title">Spiritual Journeys</h3>
           <p class="exp-desc">Char Dham Yatra, Varanasi ghats, Golden Temple Amritsar, Tirupati pilgrimage.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🍛</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-cup-hot"></i></span>
           <h3 class="exp-title">Culinary Trails</h3>
           <p class="exp-desc">Street food in Delhi, seafood in Goa, biryani in Hyderabad, thali in Rajasthan.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🐘</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-tree"></i></span>
           <h3 class="exp-title">Wildlife & Nature</h3>
           <p class="exp-desc">Tiger safaris at Ranthambore, elephants in Kaziranga, birdwatching at Bharatpur.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🎨</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-palette"></i></span>
           <h3 class="exp-title">Art & Craft</h3>
           <p class="exp-desc">Madhubani paintings, Rajasthani block printing, Banarasi silk weaving, Kondapalli toys.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🏖️</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-water"></i></span>
           <h3 class="exp-title">Beach Escapes</h3>
           <p class="exp-desc">Goa, Kovalam, Varkala, Andaman Islands, and the pristine shores of Lakshadweep.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🏯</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-building"></i></span>
           <h3 class="exp-title">Heritage Walks</h3>
           <p class="exp-desc">Agra Fort, Fatehpur Sikri, Hampi, Mahabalipuram, Ajanta & Ellora Caves.</p>
         </div>
         <div class="exp-card">
-          <span class="exp-icon">🧘</span>
+          <span class="exp-icon" aria-hidden="true"><i class="bi bi-heart-pulse"></i></span>
           <h3 class="exp-title">Wellness & Yoga</h3>
           <p class="exp-desc">Ayurveda in Kerala, yoga retreats in Rishikesh, meditation in Dharamshala.</p>
         </div>
@@ -473,11 +493,11 @@
       <h2 class="section-heading">Travel Responsibly</h2>
       <p class="responsible-body">India invites you to explore mindfully. Choose eco-friendly accommodations, respect local customs and dress codes at religious sites, support local artisans and village markets, avoid single-use plastics, and leave every destination as beautiful as you found it.</p>
       <div class="responsible-pills">
-        <span class="pill">🌿 Eco Stays</span>
-        <span class="pill">👘 Respect Dress Codes</span>
-        <span class="pill">🛍️ Support Local</span>
-        <span class="pill">♻️ No Plastics</span>
-        <span class="pill">📸 Leave No Trace</span>
+        <span class="pill"><i class="bi bi-tree-fill" aria-hidden="true"></i> Eco Stays</span>
+        <span class="pill"><i class="bi bi-person-badge" aria-hidden="true"></i> Respect Dress Codes</span>
+        <span class="pill"><i class="bi bi-shop" aria-hidden="true"></i> Support Local</span>
+        <span class="pill"><i class="bi bi-recycle" aria-hidden="true"></i> No Plastics</span>
+        <span class="pill"><i class="bi bi-camera" aria-hidden="true"></i> Leave No Trace</span>
       </div>
     </div>
   </section>

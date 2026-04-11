@@ -4,9 +4,24 @@
 
 /* ─── NAVBAR SCROLL ──────────────────────── */
 const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 40);
-}, { passive: true });
+const heroSection = document.getElementById('hero');
+
+const updateNavbarState = () => {
+  if (!navbar) return;
+
+  const scrollY = window.scrollY;
+  navbar.classList.toggle('scrolled', scrollY > 40);
+
+  if (!heroSection) return;
+  const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+  const threshold = Math.max(0, heroBottom - navbar.offsetHeight - 16);
+  navbar.classList.toggle('below-hero', scrollY >= threshold);
+};
+
+window.addEventListener('scroll', updateNavbarState, { passive: true });
+window.addEventListener('resize', updateNavbarState, { passive: true });
+window.addEventListener('load', updateNavbarState);
+updateNavbarState();
 
 /* ─── MOBILE HAMBURGER ───────────────────── */
 const hamburger = document.getElementById('hamburger');
@@ -86,7 +101,7 @@ if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = form.querySelector('button[type="submit"]');
-    btn.textContent = '✓ Enquiry Sent!';
+    btn.textContent = 'Enquiry Sent';
     btn.style.background = '#2d7a4f';
     btn.disabled = true;
     setTimeout(() => {
